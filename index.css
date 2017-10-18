@@ -1,0 +1,34 @@
+nav.toc {
+}
+.toc h2 {
+  color:#FFD740;
+}
+.contents {
+  /*margin-left: -16em;*/
+}
+.contents section {
+	padding: 2em 2em 2em 16em;
+}
+.contents section p {
+  color:#FFE57F;
+}
+footer {
+  height: 50px;
+  background-color: #eee;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 20px;
+}
+
+section.darker {
+	background-color: #101010;
+}
+
+.mui--text-display3 {
+  color:#FFD740;
+  border: 3px solid #FFD740;
+  padding: 0.6em;
+  border-radius: 5px;
+  line-height: 1em;
+  margin: 1em 0 ;
+  text-align: center;
+}

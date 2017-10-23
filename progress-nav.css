@@ -12,15 +12,17 @@ body {
 body {
   font-size: 16px;
   line-height: 1.6;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Oxygen', sans-serif; }
 
 .toc {
   position: fixed;
-  left: 3em;
-  top: 5em;
-  padding: 1em;
-  width: 14em;
-  line-height: 2; }
+  left: 0;
+  top: 0;
+  bottom: 0;
+  padding: 6em 1em 1em 3em;
+  width: 16em;
+  line-height: 2; 
+  }
   .toc ul {
     list-style: none;
     padding: 0;
@@ -29,7 +31,7 @@ body {
     padding-left: 2em; }
   .toc li a {
     display: inline-block;
-    color:#FFE57F;
+    color:#fff;
     text-decoration: none;
     -webkit-transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
             transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1); }
@@ -52,7 +54,6 @@ body {
             transition: all 0.3s ease; }
 
 .contents {
-  color:#FFD740;
   max-width: 1400px;
   font-size: 1.2em;
   font-family: 'Frank Ruhl Libre', sans-serif; }

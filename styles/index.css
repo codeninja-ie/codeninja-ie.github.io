@@ -59,18 +59,18 @@ form .form-check-inline.left-padded{
 form .form-check-label{
 	color: #fff;
 }
-#events .card{
+.events .card{
 	margin-bottom:1em;
 	background-color:#101010;
 }
-#events .card .card-header{
+.events .card .card-header{
 	background-color:#000;
   color:#FFD740;
 }
-#events .card dt{
+.events .card dt{
   color:#FFD740;
 }
-#events .card .col-sm-3{
+.events .card .col-sm-3{
 	text-align:right;
 }
 #mobile-nav-button{
@@ -87,7 +87,7 @@ form .form-check-label{
 #call-to-action .jumbotron-inverse {
 	padding:4em 0;
 }
-#about {
+.about {
 	border-top: 1px solid #FFD740;
 }
 #sponsors section.darker {

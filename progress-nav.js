@@ -6,7 +6,7 @@ window.onload = function() {
 
 	// Factor of screen size that the element must cross
 	// before it's considered visible
-	var TOP_MARGIN = 0.1,
+	var TOP_MARGIN = 0.2,
 		BOTTOM_MARGIN = 0.2;
 
 	var pathLength;

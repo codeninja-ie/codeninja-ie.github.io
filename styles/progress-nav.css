@@ -53,8 +53,13 @@ body {
     -webkit-transition: all 0.3s ease;
             transition: all 0.3s ease; }
 
-.contents {
+.contents section > *{
   max-width: 1400px;
+}
+.contents section#call-to-action > *{
+  max-width: none;
+}
+.contents {
   font-size: 1.2em;
   font-family: 'Frank Ruhl Libre', sans-serif; }
   .contents img {

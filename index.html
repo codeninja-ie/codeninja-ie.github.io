@@ -251,12 +251,11 @@
 				</div>
 
 			</section>
-
-
+				
 			<section class="darker" id="register">
 				<div class="container">
 					<h2>Register</h2>
-					<form>
+					<form method="POST" action="https://ka29s24nz1.execute-api.eu-west-1.amazonaws.com/dev/code-ninja-register">
 
 				    <div class="form-group">
 				      <label for="name">Name</label>
@@ -284,6 +283,11 @@
 							  </label>
 							</div>
 					    <input type="text" class="form-control" id="course">
+					  </div>
+						
+					  <div class="form-group">
+					    <label for="idea">Describe your app / game idea</label>
+					    <textarea class="form-control" id="idea" rows="3"></textarea>
 					  </div>
 
 					  <button type="submit" class="btn btn-success btn-lg">Register</button>

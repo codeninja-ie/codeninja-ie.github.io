@@ -13,3 +13,12 @@ Array.from(navLinks).forEach( function( link ) {
 	});
 });
 
+// popup after registering successfully
+var popupButton = document.querySelector('.popup .btn')
+popupButton.addEventListener('click',function(event){
+	event.target.parentNode.classList.add('hide')
+});
+
+if(/\?success=true$/.test(window.location.href)){
+	popupButton.parentNode.classList.remove('hide')
+}

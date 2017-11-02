@@ -130,6 +130,7 @@ body {
 	background-color:#218838;
 	color:white;
 	padding:20px;
+	box-shadow: 0 0 40px 5px black;
 }
 .popup.hide {
 	display: none;
@@ -139,6 +140,9 @@ body {
 	right:60px;
 	bottom:20px;
 	color:white;
+}
+.popup .btn:hover {
+	color:black;
 }
 
 @media screen and (max-width: 800px) {

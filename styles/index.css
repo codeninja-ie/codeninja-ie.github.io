@@ -145,6 +145,15 @@ body {
 	color:black;
 }
 
+#social-links .row{
+  max-width:400px;
+  margin: 0 auto;
+}
+#social-links .col-md-4 img{
+  max-height:80px;
+  margin:10px;
+}
+
 @media screen and (max-width: 800px) {
   #mobile-nav-button{
     display: block;

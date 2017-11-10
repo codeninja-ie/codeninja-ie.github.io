@@ -94,10 +94,10 @@ form .form-check-label{
 	padding-bottom:0;
 	border-bottom: 1px solid #FFD740;
 }
-#sponsors .col-md-4 {
+#sponsors .col-md-3 {
 	text-align: center;
 	padding: 2em;
-	border-bottom: 1px solid #ccc;
+  margin:auto;
 }
 #background-image {
 	position:fixed;

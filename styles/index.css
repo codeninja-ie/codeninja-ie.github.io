@@ -63,14 +63,15 @@ form .form-check-label{
 	margin-bottom:1em;
 	background-color:#101010;
 }
-.events .card .card-header{
+.events .card .card-header,
+.events .card .card-footer{
 	background-color:#000;
   color:#FFD740;
 }
 .events .card dt{
   color:#FFD740;
 }
-.events .card .col-sm-3{
+.events .card .col-sm-2{
 	text-align:right;
 }
 #mobile-nav-button{

@@ -168,4 +168,8 @@ body {
   .contents section{
   	padding-left:2em;
   }
+
+  .events .card .col-sm-3{
+    font-size: 10px;
+  }
 }

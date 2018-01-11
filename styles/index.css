@@ -53,6 +53,16 @@ section.darker {
 section.lighter {
 	background-color: #EEE;
 }
+.facebook-event-link {
+  padding: 4px;
+}
+.facebook-event-link img{
+  max-height: 1em;
+  margin:-1px 5px 0 5px;
+
+}
+
+
 form .form-check-inline.left-padded{
 	padding-left:2em;
 }

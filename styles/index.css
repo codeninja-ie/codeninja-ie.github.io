@@ -15,9 +15,12 @@ nav.toc {
   filter: blur(10px);
 }
 
-#submission-button{
-  font-size:40px;
+#closed-notice{
+  font-size:24px;
+  background-color: #000000;
   white-space: inherit;
+	border-radius: 10px;
+	border: 2px solid white;
 }
 
 #group-info{

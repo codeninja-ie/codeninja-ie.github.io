@@ -59,7 +59,6 @@
 						<li><a href="#events-february">February</a></li>
 					</ul>
 				</li>
-				<li><a href="#submission">Submission Form</a></li>
 				<li><a href="#contact-us">Contact us</a></li>
 				<li><a href="#prizes">Prizes</a></li>
 				<!-- <li><a href="#winners">Past Winners</a><ul>
@@ -84,7 +83,11 @@
 						  <div class="container">
 						    <h1>&lt; Code Ninja &gt;</h1>
 						    <p class="lead">The student app / game development competition</p>
-							  <a class="btn btn-lg btn-success" id="submission-button" href="#submission">Submit your project now!</a>
+							  <p id="closed-notice" >
+							  	Submissions have closed for the 2017/18 college year.
+							  	<br/>
+							  	<a href="https://www.facebook.com/CodeNinjaIE/" target="_blank">Stay in touch on Facebook</a> to find out about future events!
+							  </p>
 						  </div>
 
 						</div>
@@ -553,107 +556,6 @@
 				</div>
 
 			</section>
-				
-			<a id="register"></a>
-			<section class="darker" id="submission">
-				<div class="container">
-					<h2>Submit your project</h2>
-					<form method="POST" action="https://ka29s24nz1.execute-api.eu-west-1.amazonaws.com/dev/code-ninja-submission">
-
-
-				    <div class="form-group">
-				      <label for="name">Name</label>
-				      <input type="text" class="form-control" id="name" name="name">
-				    </div>
-
-					  <div class="form-group">
-					    <label for="email">Email</label>
-					    <input type="email" class="form-control" id="email" name="email">
-					  </div>
-
-
-					  <div class="form-group">
-					    <label for="course">Course</label>
-
-						  <div class="left-padded form-check form-check-inline">
-							  <label class="form-check-label">
-							    <input class="form-check-input" type="radio" id="university" name="university" value="NUIG"> NUIG
-							  </label>
-							</div>
-							<div class="form-check form-check-inline">
-							  <label class="form-check-label">
-							    <input class="form-check-input" type="radio" id="university" name="university" value="GMIT"> GMIT
-							  </label>
-							</div>
-					    <input type="text" class="form-control" id="course" name="course">
-					  </div>
-
-					  <br/>
-					  <br/>
-
-				    <div class="form-group">
-				      <label for="project">Project Name</label>
-				      <input type="text" class="form-control" id="project" name="project">
-				    </div>
-
-				    <div class="form-group">
-				      <label for="github">Github URL</label>
-				      <br/>
-				      <ul style="font-size: 15px;font-style: italic;">
-				      	<li>
-					      	If you have a private repo, please add the user "codeninja-judge" as a member so we can review the project.
-				      	</li>
-				      	<li>
-					      	Include instructions on how to run your project in the Readme.md. (If it's a mobile app, please include a .APK / .IPA for us to try)
-				      	</li>
-				      </ul>
-				      <input type="text" class="form-control" id="github" name="github">
-				    </div>
-						
-					  <div class="form-group">
-					    <label for="overview">Project Overview</label>
-					    <textarea class="form-control" id="overview" name="overview" rows="3"></textarea>
-					  </div>
-
-					  <div class="form-group">
-					    <label for="technologies">Technologies used</label>
-					    <textarea class="form-control" id="technologies" name="technologies" rows="3"></textarea>
-					  </div>
-
-						<br/>
-						<br/>
-						
-					  <div class="form-group">
-					    <label>Group or Individual Submission</label>
-					    <div class="left-padded form-check form-check-inline">
-							  <label class="form-check-label">
-							    <input class="form-check-input" type="radio" id="submission_type_individual" name="submission_type" value="Individual"> Individual
-							  </label>
-							</div>
-							<div class="form-check form-check-inline">
-							  <label class="form-check-label">
-							    <input class="form-check-input" type="radio" id="submission_type_group" name="submission_type" value="Group"> Group
-							  </label>
-							</div>
-						</div>
-
-
-						<div id="group-info">
-						  <div class="form-group">
-						    <label for="team">Team overview (who else is in the team, what do they study?)</label>
-						    <textarea class="form-control" id="team" name="team" rows="3"></textarea>
-						  </div>
-
-						  <div class="form-group">
-						    <label for="collaboration">Collaboration</label>
-						    <textarea class="form-control" id="collaboration" name="collaboration" rows="3"></textarea>
-						  </div>
-						</div>
-
-					  <button type="submit" class="btn btn-success btn-lg">Submit</button>
-					</form>
-				</div>
-			</section>
 
 			<section>
 				<div id="contact-us">
@@ -663,7 +565,7 @@
 				<div id="social-links">
   				<div class="container">
 						<p>
-							If you have any questions or queries, send on an email to <a href="mailto:cillian@onepagecrm.com">Cillian</a> or <a href="mailto:liam@onepagecrm.com">Liam</a> 
+							If you have any questions or queries, send on an email to <a href="mailto:cillian@onepagecrm.com">Cillian</a> or <a href="mailto:liam.krewer@gmail.com">Liam</a> 
 		    				or find us on social media:
 						</p>
 	  				<div class="row">
